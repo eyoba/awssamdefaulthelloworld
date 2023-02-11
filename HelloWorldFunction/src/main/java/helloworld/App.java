@@ -50,7 +50,7 @@ public class App implements RequestHandler<APIGatewayProxyRequestEvent, APIGatew
         final String pageContents;
         try {
             pageContents = this.getPageContents("https://checkip.amazonaws.com");
-            String output = String.format("{ \"message\": \"Hello  AWS lambda 6666666\", \"location\": \"%s\" }", pageContents);
+            String output = String.format("{ \"message\": \"Hello EEEEEE AWS lambda 6666666\", \"location\": \"%s\" }", pageContents);
 
 
             return response

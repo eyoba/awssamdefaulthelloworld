@@ -39,7 +39,6 @@ public class App implements RequestHandler<APIGatewayProxyRequestEvent, APIGatew
         }
     }
 
-
     public APIGatewayProxyResponseEvent handleRequest2() {
 
         Map<String, String> headers = new HashMap<>();
